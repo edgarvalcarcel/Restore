@@ -37,10 +37,8 @@ bld/
 [Ll]ogs/
 
 # Ignore obj and bin folders
-API/bin/
-API/obj/
-# Uncomment if you have tasks that create the project's static files in wwwroot
-#wwwroot/
+**/bin/
+**/obj/
 
 # ASP.NET Scaffolding
 ScaffoldingReadMe.txt
