@@ -82,6 +82,6 @@ yarn-error.log*
 .expo/
 .expo-shared/
 
-# API specific files
+
 API/obj/Debug/net9.0/API.AssemblyInfo.cs
 API/obj/Debug/net9.0/API.AssemblyInfoInputs.cache
