@@ -15,9 +15,7 @@ var app = builder.Build();
 //     app.MapOpenApi();
 // }
 
-app.UseHttpsRedirection();
-
-app.UseAuthorization();
+//app.UseAuthorization();
 
 app.MapControllers();
 
