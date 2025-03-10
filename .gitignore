@@ -37,9 +37,8 @@ bld/
 [Ll]ogs/
 
 # Ignore obj and bin folders
-obj/
-bin/
-
+API/bin/
+API/obj/
 # Uncomment if you have tasks that create the project's static files in wwwroot
 #wwwroot/
 
@@ -85,27 +84,3 @@ yarn-error.log*
 # React Native
 .expo/
 .expo-shared/
-
-
-API/obj/Debug/net9.0/API.AssemblyInfo.cs
-API/obj/Debug/net9.0/API.AssemblyInfoInputs.cache
-API/bin/Debug/net9.0/API.dll
-API/bin/Debug/net9.0/API.exe
-API/bin/Debug/net9.0/API.pdb
-API/obj/Debug/net9.0/API.AssemblyInfo.cs
-API/obj/Debug/net9.0/API.AssemblyInfoInputs.cache
-API/obj/Debug/net9.0/API.dll
-API/obj/Debug/net9.0/API.pdb
-API/obj/Debug/net9.0/apphost.exe
-API/obj/Debug/net9.0/ref/API.dll
-API/obj/Debug/net9.0/refint/API.dll
-API/bin/Debug/net9.0/API.dll
-API/bin/Debug/net9.0/API.exe
-API/bin/Debug/net9.0/API.pdb
-API/obj/Debug/net9.0/API.AssemblyInfo.cs
-API/obj/Debug/net9.0/API.AssemblyInfoInputs.cache
-API/obj/Debug/net9.0/API.dll
-API/obj/Debug/net9.0/API.pdb
-API/obj/Debug/net9.0/apphost.exe
-API/obj/Debug/net9.0/ref/API.dll
-API/obj/Debug/net9.0/refint/API.dll
