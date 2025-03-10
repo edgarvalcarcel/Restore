@@ -31,3 +31,4 @@ C:\Users\Edgar\OneDrive\Documentos\CursoC#ReactRedux\Restore\API\obj\Debug\net9.
 C:\Users\Edgar\OneDrive\Documentos\CursoC#ReactRedux\Restore\API\obj\Debug\net9.0\API.pdb
 C:\Users\Edgar\OneDrive\Documentos\CursoC#ReactRedux\Restore\API\obj\Debug\net9.0\API.genruntimeconfig.cache
 C:\Users\Edgar\OneDrive\Documentos\CursoC#ReactRedux\Restore\API\obj\Debug\net9.0\ref\API.dll
+C:\Users\Edgar\OneDrive\Documentos\CursoC#ReactRedux\Restore\API\obj\Debug\net9.0\API.sourcelink.json
