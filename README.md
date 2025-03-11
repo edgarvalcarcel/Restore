@@ -1,4 +1,4 @@
-﻿﻿## reStore Solution for React, Redux, C#, ASP .NET Core Project for a Store of Products
+﻿﻿## reStore Solution with React, Redux, C#, ASP .NET Core Project for a Store of Products
 ## Technologies
 
 The project contains the following technology:
