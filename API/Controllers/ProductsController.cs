@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using API.Data;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
 using API.Entities;
+using Microsoft.EntityFrameworkCore;
 
 namespace API.Controllers
 {
@@ -14,14 +15,14 @@ namespace API.Controllers
         private readonly StoreContext _context = context;
 
         [HttpGet]
-        public ActionResult<List<Product>> GetProducts()
+        public async Task<ActionResult<List<Product>>> GetProducts()
         {
-            return _context.Products.ToList();
+            return await _context.Products.ToListAsync();
         }
         [HttpGet("{id}")]
-        public ActionResult<Product> GetProduct(int id)
+        public async Task<ActionResult<Product>> GetProduct(int id)
         {
-            var product = _context.Products.Find(id);
+            var product = await _context.Products.FindAsync(id);
             if (product == null)
             {
                 return NotFound();
