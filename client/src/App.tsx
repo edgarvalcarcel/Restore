@@ -25,14 +25,16 @@ function App() {
     },
   ]);
   const addProducts = () => {
-    setProducts([...products,
-      { id: products.length + 1, title: `Product ${products.length + 1}`, price: (products.length + 1) * 100 }]);
+    setProducts(prevState => [...prevState,
+      { id: prevState.length + 1, title: `Product ${prevState.length + 1}`, price: (prevState.length + 1) * 100 }]);
   }
 
 
   return (
     <div>
       <h1>Re-Store</h1>
+      <button
+        onClick={addProducts}>Add Product</button>
       <ul>
         {products.map(product => (
           <li key={product.id}>
@@ -40,8 +42,7 @@ function App() {
           </li>
         ))}
       </ul>
-      <button
-        onClick={addProducts}>Add Product</button>
+      
     </div>
   )
 }
