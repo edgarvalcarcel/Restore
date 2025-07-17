@@ -1,6 +1,6 @@
 import {useEffect, useState} from "react";
 import { Product } from "../../models/product";
-
+import Catalog from "../../features/catalog/Catalog";
 function App() {
 
     const [products,
@@ -29,6 +29,7 @@ function App() {
     return (
         <div>
             <h1>Re-Store</h1>
+            <Catalog/>
             <button onClick={addProducts}>Add Product</button>
             <ul>
                 {products.map(product => (
