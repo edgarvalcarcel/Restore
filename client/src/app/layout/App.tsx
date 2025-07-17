@@ -13,11 +13,11 @@ function App() {
             .catch(error => console.error('Error fetching products:', error));
     }, []);
 
-    const addProducts = () => {
+    const addProduct = () => {
         setProducts(prevState => [...prevState, 
         {
             id: prevState.length + 1,
-            name: 'product ' +(prevState.length + 1),
+            name: 'Product ' +(prevState.length + 1),
             price: (prevState.length * 100) + 100,
             quantityInStock: 100,
             description: 'description',
@@ -29,18 +29,8 @@ function App() {
 
     return (
         <div>
-            <h1>Re--Store</h1>
-            <Catalog/>
-            <button onClick={addProducts}>Add Product</button>
-            <ul>
-                {products.map(product => (
-                    <li key={product.id}>
-                        {product.name}
-                        - ${product.price}
-                    </li>
-                ))}
-            </ul>
-
+            <h1>Re-Store</h1>
+            <Catalog products={products} addProduct={addProduct}/>
         </div>
     )
 }
