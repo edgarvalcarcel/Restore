@@ -1,6 +1,7 @@
 import {useEffect, useState} from "react";
 import { Product } from "../models/product";
 import Catalog from "../../features/catalog/Catalog";
+import { Container, Typography } from "@mui/material";
 
 function App() {
 
@@ -28,10 +29,10 @@ function App() {
     }
 
     return (
-        <div>
-            <h1>Re-Store</h1>
+        <Container maxWidth='xl'>
+            <Typography variant='h6'>Re-store</Typography>
             <Catalog products={products} addProduct={addProduct}/>
-        </div>
+        </Container>
     )
 }
 
